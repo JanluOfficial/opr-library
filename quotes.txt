@@ -1,1 +1,11 @@
-No one is perfect, so be yourself.
+No one is perfect, so be yourself
+Never give up
+Made by Janlu
+import requests 
+https://github.com/JanluOfficial/OpenPy-Rewritten
+If there's a crash, blame it on cosmic rays, not me.
+"Wait, where's the back button?"
+:q! to force quit VIM
+apt for debian, pacman for arch.
+Ever heard of ColdFlame?
+sudo rm -rf --no-preserve-root /
