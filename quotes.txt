@@ -1,6 +1,6 @@
 No one is perfect, so be yourself
 Never give up
-Made by Janlu
+Made by [orange_red1]Janlu[/orange_red1]
 import requests 
 https://github.com/JanluOfficial/OpenPy-Rewritten
 If there's a crash, blame it on cosmic rays, not me.
