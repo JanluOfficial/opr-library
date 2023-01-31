@@ -1,7 +1,8 @@
 {
     "cloudrun": {
-        "all-cloudrun-apps-list": ["term-clock"],
+        "all-cloudrun-apps-list": ["term-clock", "openfetch"],
         
-        "term-clock": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json"
+        "term-clock": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json",
+        "openfetch": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/openfetch/openfetch.json"
     }
 }
