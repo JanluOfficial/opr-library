@@ -116,7 +116,12 @@ while 1 == 1:
             hour_offset += 24
         hour_offset %= 24
         hourlist = list(str(hour_offset))
-        minlist = list(str(curr.tm_min))
+        
+        if not len(str(curr.tm_min)) == 2:
+            minutes = "0" + str(curr.tm_min)
+        else:
+            minutes = str(curr.tm_min)
+        minlist = list(minutes)
         fulltime = str(hour_offset) + str(curr.tm_min)
 
         if not fulltime == prevtime or not os.get_terminal_size().lines == height:
@@ -301,15 +306,7 @@ while 1 == 1:
                     row6display += zero["6"] + "  "
                     row7display += zero["7"] + "  "
 
-            print("\n" * (os.get_terminal_size().lines - 8))
-            print("  " + row1display)
-            print("  " + row2display)
-            print("  " + row3display)
-            print("  " + row4display)
-            print("  " + row5display)
-            print("  " + row6display)
-            print("  " + row7display)
-            print()
+            print("\n" * (os.get_terminal_size().lines - 9) + "  " + row1display + "\n  " + row2display + "\n  " + row3display + "\n  " + row4display + "\n  " + row5display + "\n  " + row6display + "\n  " + row7display + "\n")
             prevtime = str(hour_offset) + str(curr.tm_min)
             height = os.get_terminal_size().lines
 #            time.sleep(1)
