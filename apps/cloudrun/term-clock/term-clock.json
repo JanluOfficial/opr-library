@@ -1,0 +1,5 @@
+{
+    "name": "Terminal Clock",
+    "description": "A terminal clock written to be ran via OpenPy's \"cloudrun\" command.",
+    "file": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.py"
+}
