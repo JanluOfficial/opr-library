@@ -1,5 +1,5 @@
 {
-    "applisturl": "undefined",
+    "applisturl": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/list.json",
     "themelisturl": "undefined",
     "quoteslisturl": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/quotes.txt"
 }
