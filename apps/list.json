@@ -1,8 +1,7 @@
 {
     "cloudrun": {
-        "all-cloudrun-apps-list": ["term-clock", "test"],
+        "all-cloudrun-apps-list": ["term-clock"],
         
-        "term-clock": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json",
-        "test": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json"
+        "term-clock": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json"
     }
 }
