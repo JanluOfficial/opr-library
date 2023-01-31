@@ -316,6 +316,7 @@ while 1 == 1:
             try:
                 gmt_offset_input = Prompt.ask("[dark_cyan]▄[/dark_cyan][grey100 on dark_cyan] GMT Offset [/grey100 on dark_cyan][dark_cyan]▀[/dark_cyan]", default="0")
                 gmt_offset = int(gmt_offset_input)
+                prevtime = "balls"
             except: 
                 gmt_offset = 0
                 prevtime = "balls"
