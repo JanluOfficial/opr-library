@@ -7,6 +7,7 @@ from rich.prompt import Prompt
 import random
 gmt_offset = 0
 
+# Numbers
 one = {
     "1": "████",
     "2": "  ██",
@@ -107,6 +108,10 @@ zero = {
     "7": "██████████",
 }
 
+# Icons
+
+
+
 prevtime = ""
 while 1 == 1:
     try:
@@ -132,7 +137,6 @@ while 1 == 1:
             row5display = ""
             row6display = ""
             row7display = ""
-
 
             for num in hourlist:
                 if num == "1":
