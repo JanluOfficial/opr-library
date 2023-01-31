@@ -311,8 +311,13 @@ while 1 == 1:
             height = os.get_terminal_size().lines
 #            time.sleep(1)
     except KeyboardInterrupt:
-        try:
-            gmt_offset_input = Prompt.ask("[dark_cyan]▄[/dark_cyan][grey100 on dark_cyan] GMT Offset [/grey100 on dark_cyan][dark_cyan]▀[/dark_cyan]", default="0")
-            gmt_offset = int(gmt_offset_input)
-        except:
-            gmt_offset = 0
+        choice = Prompt.ask("[orange_red1]▄[/orange_red1][grey100 on orange_red1] (G)MT Offset, (Q)uit [/grey100 on orange_red1][orange_red1]▀[/orange_red1]", default="G", choices=["G", "Q"], show_choices=False, show_default=False)
+        if choice == "G": 
+            try:
+                gmt_offset_input = Prompt.ask("[dark_cyan]▄[/dark_cyan][grey100 on dark_cyan] GMT Offset [/grey100 on dark_cyan][dark_cyan]▀[/dark_cyan]", default="0")
+                gmt_offset = int(gmt_offset_input)
+            except: 
+                gmt_offset = 0
+                prevtime = "balls"
+        elif choice == "Q": break
+        else: otk = 0
