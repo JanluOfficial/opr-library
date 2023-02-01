@@ -1,5 +1,6 @@
 {
     "name": "OpenFetch",
+    "author": "JanluOfficial",
     "description": "OpenFetch is a tool that allows the user to gather useful information about their Hardware and Environment.",
     "file": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/openfetch/openfetch.py"
 }
