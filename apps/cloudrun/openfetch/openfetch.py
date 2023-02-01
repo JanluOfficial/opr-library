@@ -9,7 +9,6 @@ print(f'[deep_pink3]Platform:[/deep_pink3] {platform.platform()}')
 print(f'[deep_pink3]Architecture:[/deep_pink3] {platform.machine()}')
 print(f'[deep_pink3]CPU:[/deep_pink3] {platform.processor()}')
 print(f'[deep_pink3]CPU Cores:[/deep_pink3] {os.cpu_count()}')
-print(f'[deep_pink3]Architecture:[/deep_pink3] {platform.machine()}')
 print()
 if os.name == "nt":
     print(f'[deep_pink3]Windows Version:[/deep_pink3] Windows {platform.win32_ver()[0]}')
