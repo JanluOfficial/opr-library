@@ -4,5 +4,8 @@
         
         "term-clock": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/term-clock/term-clock.json",
         "openfetch": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/openfetch/openfetch.json"
+    },
+    "downloadable": {
+        "all-downloadable-apps-list": []
     }
 }
