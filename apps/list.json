@@ -6,6 +6,6 @@
         "openfetch": "https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/cloudrun/openfetch/openfetch.json"
     },
     "downloadable": {
-        "all-downloadable-apps-list": []
+        "all-downloadable-apps-list": ["testitem1"]
     }
 }
