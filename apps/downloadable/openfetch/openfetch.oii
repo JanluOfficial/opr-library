@@ -1,3 +1,4 @@
 make cloud openfetch.json https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/downloadable/openfetch/json/openfetch.json
 make cloud openfetch.py https://raw.githubusercontent.com/JanluOfficial/opr-library/master/apps/downloadable/openfetch/openfetch.py
+output Successfully installed OpenFetch
 finish
