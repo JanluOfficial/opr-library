@@ -3,6 +3,7 @@
     "author": "JanluOfficial",
     "description": "OpenFetch is a tool that allows the user to gather useful information about their Hardware and Environment.",
     "file": "openfetch.py",
+    "run-as": "openpy",
 
     "json-ver": 1
 }
