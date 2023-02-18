@@ -1,0 +1,9 @@
+{
+    "name": "Mines",
+    "author": "JanluOfficial",
+    "description": "A simple game of mines. Original Code by vakus on StackEchange",
+    "file": "mines.py",
+    "run-as": "openpy",
+
+    "json-ver": 1
+}
