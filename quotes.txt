@@ -12,7 +12,7 @@ Welcome to the internet.
 Sponsored by myself
 If code can be art, then I'm not a good artist.
 GPLv3 since 2023
-"My computer crashed twice today, same issue."\n - Janlu, 09.09.2023
+"My computer hard-crashed twice today"
 War crimes are still crimes
 Where is the bathroom?
 console.print()... Which programming language is this?
@@ -26,7 +26,7 @@ Can we open source the earth? Somethings broken...
 A lot of code was written on a Saturday
 USB-C good, Lightning bad
 RCS > iMessage > SMS > Letters
-Rest in piece Technoblade
+Rest in peace Technoblade
 Who was in Paris?
 Never gonna give you up
 If you see this, you're online and my code works! :D
